@@ -19,3 +19,7 @@ var submit = function() {
         var possibilityTwo=check(two,three);
         var possibilityThree=check(three,one);
         if(possibilityOne===three || possibilityOne<three)
+        {
+          alert ("not a triangle")
+        }
+        else if (possibilityTwo===one || possibilityTwo<one)
