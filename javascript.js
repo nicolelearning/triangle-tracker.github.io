@@ -9,3 +9,13 @@ var submit = function() {
   else
   {
       function check(num1,num2)
+      {
+      return num1+num2;
+        }
+        var one = parseInt(firstSide.value);
+        var two = parseInt(secondSide.value);
+        var three = parseInt(thirdSide.value);
+        var possibilityOne=check(one,two);
+        var possibilityTwo=check(two,three);
+        var possibilityThree=check(three,one);
+        if(possibilityOne===three || possibilityOne<three)
