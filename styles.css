@@ -1,12 +1,9 @@
-div{
-  padding: 20px
+.form{
+  width:50%
+  length:100%
+
 }
 input[type=text],select{
   width: 100%;
   padding: 12px 20px;
   position: static;
-}
-.form {
-  height: 100%;
-  width: 50%;
-}
