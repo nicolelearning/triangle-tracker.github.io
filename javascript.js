@@ -3,4 +3,7 @@ var submit = function() {
   var secondSide = document.getElementById("second");
   var thirdSide = document.getElementById("third");
   if(firstSide.value === "" || secondSide.value === "" || thirdSide.value === "")
-  
+  {
+    alert("fill in");
+  }
+  else
