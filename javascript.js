@@ -23,3 +23,27 @@ var submit = function() {
           alert ("not a triangle")
         }
         else if (possibilityTwo===one || possibilityTwo<one)
+        {
+        alert ("not a triangle")
+        }
+        else if (possibilityThree===two || possibilityThree<two)
+        {
+        alert ("not a triangle")
+        }
+        else
+        {
+      if (one===two&&two===three&&three===one)
+      {
+        alert ("equilateral")
+      }
+      else if (one===two||two===three||three===one)
+      {
+        alert ("Isosceles")
+      }
+      else
+      {
+        alert ("scalene")
+      }
+    }
+  }
+}
