@@ -8,30 +8,30 @@ var submit = function() {
   }
   else
   {
-      function check(num1,num2)
-      {
-      return num1+num2;
-        }
-        var one = parseInt(firstSide.value);
-        var two = parseInt(secondSide.value);
-        var three = parseInt(thirdSide.value);
-        var possibilityOne=check(one,two);
-        var possibilityTwo=check(two,three);
-        var possibilityThree=check(three,one);
-        if(possibilityOne===three || possibilityOne<three)
-        {
-          alert ("not a triangle")
-        }
-        else if (possibilityTwo===one || possibilityTwo<one)
-        {
+    function check(num1,num2)
+    {
+    return num1+num2;
+    }
+    var one = parseInt(firstSide.value);
+    var two = parseInt(secondSide.value);
+    var three = parseInt(thirdSide.value);
+    var possibilityOne=check(one,two);
+    var possibilityTwo=check(two,three);
+    var possibilityThree=check(three,one);
+    if(possibilityOne===three || possibilityOne<three)
+    {
+      alert ("not a triangle")
+    }
+    else if (possibilityTwo===one || possibilityTwo<one)
+    {
         alert ("not a triangle")
-        }
-        else if (possibilityThree===two || possibilityThree<two)
-        {
+    }
+    else if (possibilityThree===two || possibilityThree<two)
+    {
         alert ("not a triangle")
-        }
-        else
-        {
+    }
+    else
+    {
       if (one===two&&two===three&&three===one)
       {
         alert ("equilateral")
