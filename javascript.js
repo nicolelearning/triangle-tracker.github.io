@@ -7,3 +7,5 @@ var submit = function() {
     alert("fill in");
   }
   else
+  {
+      function check(num1,num2)
