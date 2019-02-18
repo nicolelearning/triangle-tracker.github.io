@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>triangle tracker</title>
+    <title>trianle tracker</title>
     <link href="styles.css" rel="stylesheet" type="text/css">
-    <script src="javascript.js"></script>
+    <script src="java.js"></script>
   </head>
-  <body bgcolor=#cccccc>
-    <div  class="form">
-      <form class="form" action="index.html" method="post">
-        <label for="firstSide">first side</label>
-        <input  type="text" name="firstNumber" value="0">
-        <label for="secondSide">second side</label>
-        <input type="text" name="secondNumber" value="0">
-        <label for="thirdSide">third side</label>
-        <input type="text" name="thirdNumber" value="0">
-        <input type="submit" value="Submit">
-</form>
-      </form>
+  <body>
+    <h1>Triangle Tracker</h1>
+    <div>
+        <input id="first" type="text" name="firstSide" placeholder="0"/>
+        <input id="second" type="text" name="secondSide" placeholder="0"/>
+        <input id="third" type="text" name="thirdSide" placeholder="0"/>
+        <div onclick="submit()">
+          <p>submit</p>
+        </div>
+
+
     </div>
+
 
   </body>
 </html>
